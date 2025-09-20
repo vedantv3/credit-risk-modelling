@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 # Path to the saved model and its components
 import os
 # Correct path to your model file
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "model_data.joblib")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "artifacts/model_data.joblib")
 
 # Load the model
 model_data = joblib.load(MODEL_PATH)
